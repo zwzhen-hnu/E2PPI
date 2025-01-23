@@ -2,7 +2,7 @@
 Enhanced Protein Network Representation with Explicit Structural Binding for Protein-Protein Interaction Prediction
 
 ## Dependencies
-'''
+'''python
 python == 3.10
 '''
 
