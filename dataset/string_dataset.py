@@ -60,7 +60,7 @@ class string_dataset(Dataset):
                                              processed_path + "protein.nodes.dock.pt", processed_path)
 
         #dictonary
-        self.dictionary = []  # 蛋白id
+        self.dictionary = []  
         with open(processed_path + "/protein.SHS27k.sequences.dictionary.csv") as f:
             reader = csv.reader(f)
             for row in reader:
