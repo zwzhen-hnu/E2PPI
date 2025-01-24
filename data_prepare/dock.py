@@ -100,7 +100,6 @@ def run_dock_one(pid1, pid2):
     # run hdock generate 100 model
     print("run_hdock_one")
     new_ch1, new_ch2 = run_hdock_one(out_dock, pid1, pid2)
-    # 分析1000个预测模型
     affinitys = []
     print("run foldx ")
     for i in tqdm(range(1, 101)):
