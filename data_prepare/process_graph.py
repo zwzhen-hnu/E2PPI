@@ -149,7 +149,7 @@ def data_processing(dictionary, ppi):
 dictionary_path = "/root/autodl-fs/protein.SHS27k.sequences_3di.dictionary.csv"
 ppi_path = "/root/autodl-fs/SHS27k_ppi.pkl"
 
-dictionary = []  # 蛋白id
+dictionary = []  
 ppi_list = []
 
 with open(dictionary_path) as f:
